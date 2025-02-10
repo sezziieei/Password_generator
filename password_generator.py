@@ -11,7 +11,7 @@ def generate_passwords():
         if num_passwords <= 0 or length < 8:
             raise ValueError
     except ValueError:
-        messagebox.showerror("Invalid Input", "Enter valid numbers (min length 😎.")
+        messagebox.showerror("Invalid Input", "Enter valid numbers (min length 8.")
         return
 
     # List to store possible character sets
